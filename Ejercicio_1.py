@@ -37,7 +37,13 @@ def resta(a, b):
 def multiplicacion(a, b):
     return a * b     # Retorna el resultado de la multiplicación
 
-
+# Función para dividir
+def division(a, b):
+    if b != 0:                   # Verifica que el divisor no sea cero
+        return a / b             # Retorna el resultado de la división
+    else:
+        return "Error: No se puede dividir entre 0."  # Mensaje de error
+    
 # Bucle principal del programa
 while True:
     limpiar_consola()   # Limpia la consola en cada iteración
@@ -45,7 +51,8 @@ while True:
     print("1. Sumar")                         # Opción 1
     print("2. Restar")                        # Opción 2
     print("3. Multiplicar")                   # Opción 3
-    print("5. Salir")                         # Opción 4
+    print("4. Dividir")                       # Opción 4
+    print("5. Salir")                         # Opción 5
     
     opcion = input("Seleccione una opción: ")  # El usuario elige una opción
 
@@ -67,7 +74,14 @@ while True:
         print(f"Resultado: {n1} * {n2} = {multiplicacion(n1, n2)}")  # Muestra el resultado
         input("Presione Enter para continuar...")                      # Pausa
 
-    elif opcion == '4':                          # Si elige salir
+    elif opcion == '4':                          # Si elige división
+        print("\n DIVISIÓN")              # Encabezado
+        n1, n2 = solicitar_numeros()             # Solicita dos números
+        resultado = division(n1, n2)             # Calcula la división
+        print(f"Resultado: {n1} / {n2} = {resultado}")  # Muestra el resultado
+        input("Presione Enter para continuar...")       # Pausa    
+
+    elif opcion == '5':                          # Si elige salir
         print("\nGracias por usar la calculadora. ¡Hasta pronto!")  # Mensaje de despedida
         break                                    # Sale del bucle
 
