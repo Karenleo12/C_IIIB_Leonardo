@@ -8,7 +8,7 @@ Funcionalidades:
 4. Dividir dos números
 5. Salir del sistema
 
-Realizado por: Karen Leonardo - 02/06/2025
+Realizado por: Karen Leonardo - 13/08/2025
 """
 
 # Importamos la librería 'os' para poder limpiar la consola
