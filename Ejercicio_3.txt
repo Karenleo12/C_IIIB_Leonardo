@@ -1,0 +1,15 @@
+¿Qué es Frontend?
+El Frontend es la parte de una aplicación o sitio web con la que los usuarios interactúan directamente. Incluye todo lo que ves en pantalla: botones, menús, colores, tipografías, formularios, etc.
+
+¿Qué es Backend?
+El Backend es la parte “invisible” que se ejecuta en el servidor. Gestiona la lógica del negocio, bases de datos, autenticación de usuarios, etc.
+
+¿Qué es una API?
+Una API (Interfaz de Programación de Aplicaciones) es un conjunto de reglas que permite que diferentes programas se comuniquen entre sí.
+
+¿Cómo se relacionan entre sí?
+
+1. El usuario interactúa con el Frontend
+2. El Frontend envía una solicitud a una API, generalmente alojada en el Backend.
+3. El Backend procesa la solicitud, consulta una base de datos si es necesario, y responde a través de la API.
+4. El Frontend recibe la respuesta y actualiza la interfaz según el resultado.
