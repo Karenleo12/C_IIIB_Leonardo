@@ -1,0 +1,7 @@
+Explica los comandos necesarios para subir un archivo a GitHub:
+1. git init: Inicializa un nuevo repositorio de Git en una carpeta.
+2. git add .: Agrega todos los archivos y carpetas al área de preparación.
+3. git commit -m "primer commit": Guarda un el estado actual de los archivos en el repositorio, con un mensaje descriptivo.
+4. git branch -M main: Renombra la rama actual a "main".
+5. git remote add origin https://github.com/Karenleo12/C_IIIB_Leonardo.git: Vincula el repositorio con un repositorio en GitHub.
+6. git push -u origin main: Sube los cambios al repositorio en GitHub.
